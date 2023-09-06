@@ -1,0 +1,32 @@
+Objective
+The goal of this assignment is to have you:
+
+Understand and use functions to break your code into components.
+Learn how to store and retrieve data using multidimensional arrays.
+Become familiar with GitHub used as a solo developer and in a team.
+Take the time to review and improve your work.
+To this end, you will extend the work completed for Assignments 1 and 2. Now that your index and detail pages are finished, you and your team members will work on adding a couple of features and publishing your work in a GitHub repository. 
+
+Instructions
+The team leader will create a new repository (public or private - see below) called "ASE230-Team-website" on GitHub, invite the other members as collaborators, and create a file called "README.md" where they will list the collaborators.
+Each member will create a branch and work on one the following features:
+Member age: create a function that calculates the team member's age based on their date of birth (parameter) and current date. Display the age both on the index and detail pages.
+Card on the index page: create a function that displays each member's information on the index page. The function accepts the member's information (array) and the index of the member (number) as parameters, and it must display the code for the card filled with the member's information.
+Work experiences on the detail page: create a function that displays each work experience item on the detail page. The function accepts one work experience item as a parameter, and it must display the code for the work experience filled with the employment information.
+Each member will push their work on GitHub on their branch.
+The team leader will integrate (merge) the work of each team member into the main branch and push the changes.
+For workload balance, the team member can work on the first function, which is quite easy to create (you might even want to use ChatGPT/StackOverflow to get some hints).
+
+Submission guidelines
+Submit the link to the GitHub repository. Given that some of you might not want to share your information publicly, you can create a private repository and add me as a collaborator.
+
+After submitting, please use the following link (https://forms.gle/2Pz2nUSHaqTUw3QZ6Links to an external site.) to send me feedback for this assignment to help me improve it and the next ones.
+
+Rubric
+There are 10 points available for this assignment.
+
+code is indented properly: +1 point
+there are no HTML or PHP errors: +1 point
+each function is defined and works properly: +2 points for each function
+the project is created on GitHub: +2 points
+each team member created their own branch: +2 points
