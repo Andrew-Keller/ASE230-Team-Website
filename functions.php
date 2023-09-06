@@ -4,7 +4,7 @@ function createCard(array $array, $index){ ?>
 	<header class="resume-header pt-4 pt-md-0">
 			    <div class="row">
 				    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
-				        <img class="picture" src="<?= $array[$index]['picture'] ?> alt="">
+				        <img class="picture" src=<?= $array[$index]['picture'] ?> alt="">
 				    </div><!--//col-->
 				    <div class="col">
 					    <div class="row p-4 justify-content-center justify-content-md-between">
