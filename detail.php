@@ -1,6 +1,6 @@
 <?php
 
-include 'teamArray.php';
+include 'teamArray.php',"Functions.php";
 /*This should mean all the info is in $detailArray*/
 $detailArray = $team[$_GET['name']];
 
