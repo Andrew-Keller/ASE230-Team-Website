@@ -1,4 +1,5 @@
 <?php
+require_once('teamArray.php');
 function memberAge($birthday){
 	$birthday = date('Y-m-d', strtotime($birthday));
 	$today = date('Y-m-d');
