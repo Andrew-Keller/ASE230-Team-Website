@@ -1,6 +1,6 @@
 <?php
-
 include 'teamArray.php';
+require_once('functions.php');
 /*This should mean all the info is in $detailArray*/
 $detailArray = $team[$_GET['name']];
 
