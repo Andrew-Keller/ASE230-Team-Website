@@ -41,6 +41,7 @@ include 'teamArray.php';
 					    <div class="row p-4 justify-content-center justify-content-md-between">
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?=$member['name']?></h1>
+							    <div class="title mb-1"><?= $ages[$member['name']]." years of age"?></div>
 							    <div class="title mb-3"><?=$member['desiredJobtitle']?></div>
 								<a href="<?= "detail.php?name=".$member['name'] ?>" class="btn btn-secondary"><?='See full Profile'?></a>
 						    </div><!--//primary-info-->
