@@ -6,9 +6,9 @@ function memberAge($birthday){
 	$years = date_diff(date_create($birthday), date_create($today));
 	return $years->format('%y');
 }
-foreach($teammates as $team){
-$birthday = $team['birthday'];
+foreach($team as $teammates){
+$birthday = $teammates['birthday'];
 $age = memberAge($birthday);
-$ages[$team['name']] = $age;
+$ages[$teammates['name']] = $age;
 }
 ?>
