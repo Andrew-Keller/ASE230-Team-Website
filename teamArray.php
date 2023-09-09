@@ -2,7 +2,7 @@
 /*comment to check its updating*/
 $team = 
 array(
-		'Andrew Keller' =>
+		0 =>
 		array(
 			'name' => "Andrew Keller",
 			'picture' => "assets\images\Andrew.jpg",
@@ -71,7 +71,7 @@ array(
 
 		),
 
-		'Evan McMillin' =>
+		1 =>
 		array(
 			'name' => "Evan McMillin",
 			'picture' => "assets\images\Evan.jpg",
@@ -135,7 +135,7 @@ array(
 			)
 
 		),
-		'Leo Foy' =>
+		2 =>
 		array(
 			'name' => "Leo Foy",
 			'picture' => "assets\images\Leo.jpg",
@@ -202,7 +202,7 @@ array(
 
 			)
 		),
-		'Julianna Truitt' =>
+		3 =>
 		array(
 			'name' => "Julianna Truitt",
 			'picture' => "assets\images\Julianna.jpg",
