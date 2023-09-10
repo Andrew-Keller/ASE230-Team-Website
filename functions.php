@@ -21,6 +21,12 @@ Work experiences on the detail page: create a function that displays each work e
 ?>
 
 <?php	
+function memberAge($birthday){
+	$birthday = date('Y-m-d', strtotime($birthday));
+	$today = date('Y-m-d');
+	$years = date_diff(date_create($birthday), date_create($today));
+	return $years->format('%y');
+	}
 function createCard(array $array, $index){ ?>
 	<header class="resume-header pt-4 pt-md-0">
 			    <div class="row">
