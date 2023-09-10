@@ -1,6 +1,6 @@
 <?php
 include 'teamArray.php';
-include 'functions.php';
+require_once('functions.php');
 
 ?>
 <!DOCTYPE html>
@@ -32,15 +32,13 @@ include 'functions.php';
     <article class="resume-wrapper text-center position-relative">
 	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
 			<h1 class="py-4 text-center" ><?="OUR AMAZING TEAM"?></h1>
+
 				    	<?php $i=0;do {
 
 							createCard($team, $i);
 								$i=$i+1;
 				    	} while ($i<count($team));	
-				    		?>
-		    
-					    
-		    
+				    		?>  			   	    
 	    </div>
     </article> 
 
