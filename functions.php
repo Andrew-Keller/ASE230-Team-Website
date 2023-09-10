@@ -1,4 +1,6 @@
 
+=======
+
 <?php	
 function createCard(array $array, $index){ ?>
 	<header class="resume-header pt-4 pt-md-0">
@@ -20,4 +22,14 @@ function createCard(array $array, $index){ ?>
 			    </div><!--//row-->
 		    </header>
 <?php } ?>
+<?php
+
+function memberAge($birthday){
+	$birthday = date('Y-m-d', strtotime($birthday));
+	$today = date('Y-m-d');
+	$years = date_diff(date_create($birthday), date_create($today));
+	return $years->format('%y');
+}
+
+?>
 

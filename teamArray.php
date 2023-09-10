@@ -6,6 +6,7 @@ array(
 		array(
 			'name' => "Andrew Keller",
 			'picture' => "assets\images\Andrew.jpg",
+			'birthday'=>'1997-11-5',
 			'desiredJobtitle' => "Business Analyst",
 			'email' => "kellera11@mymail.nku.edu",
 			'number' => '513 555 5855',
@@ -75,6 +76,7 @@ array(
 		array(
 			'name' => "Evan McMillin",
 			'picture' => "assets\images\Evan.jpg",
+			'birthday'=>'2002-4-8',
 			'desiredJobtitle' => "Database Analyst",
 			'email' => "mcmilline1@nku.edu",
 			'number' => '(513)869-9060',
@@ -139,6 +141,7 @@ array(
 		array(
 			'name' => "Leo Foy",
 			'picture' => "assets\images\Leo.jpg",
+			'birthday'=>'2003-3-6',
 			'desiredJobtitle' => "Application Engineer",
 			'email' => "lfoy306@gmail.com",
 			'number' => '(802)622-4425',
@@ -206,6 +209,7 @@ array(
 		array(
 			'name' => "Julianna Truitt",
 			'picture' => "assets\images\Julianna.jpg",
+			'birthday'=>'2002-7-25',
 			'desiredJobtitle' => "Software Engineer",
 			'email' => "truittj3@nku.edu",
 			'number' => '859-609-5761',
