@@ -1,4 +1,41 @@
 
+<?php 
+	function workExp(array $item) { ?>
+			<article class="resume-timeline-item position-relative pb-5">
+					<div class="resume-timeline-item-header mb-2">
+						<div class="d-flex flex-column flex-md-row">
+							<h3 class="resume-position-title font-weight-bold mb-1"><?=$item['title'] ?></h3>
+							<div class="resume-company-name ms-auto"><?=$item['company']?></div>
+						</div><!--//row-->
+						<div class="resume-position-time"><?=$item['tenure'] ?></div>
+					</div><!--//resume-timeline-item-header-->
+					<div class="resume-timeline-item-desc">
+						<p><?=$item['description'] ?></p>
+						<?php if(empty($item['Achieivements'])) {} 
+						else{
+						?>
+						<h4 class="resume-timeline-item-desc-heading font-weight-bold"><?='Achievements:'?></h4>
+						<ul>
+						<?php foreach($item['Acheivements'] as $acheivement) {?>
+							<li><?=$acheivement?></li>
+						<?php }}?>
+						</ul>
+						<?php if(empty($item['techUsed'])){ } 
+						else{
+						?>
+						<h4 class="resume-timeline-item-desc-heading font-weight-bold"><?php 'Technologies used:'?></h4>
+						<ul class="list-inline">
+						<?php foreach($item['techUsed'] as $tech){ ?>
+							<li class="list-inline-item"><span class="badge bg-secondary badge-pill"><?= $tech?></span></li>
+						<?php }?>
+						</ul>
+					</div><!--//resume-timeline-item-desc-->
+
+			</article><!--//resume-timeline-item-->
+			<?php }?>
+	<?php } ?>
+
+?>
 
 
 <?php	
