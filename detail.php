@@ -2,7 +2,7 @@
 include 'teamArray.php';
 require_once('functions.php');
 /*This should mean all the info is in $detailArray*/
-$detailArray = $team[$_GET['name']];
+$detailArray = $team[$_GET['index']];
 
 ?>
 <!DOCTYPE html>
@@ -44,7 +44,7 @@ $detailArray = $team[$_GET['name']];
 					    <div class="row p-4 justify-content-center justify-content-md-between">
 						    <div class="primary-info col-auto">
 							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase"><?=$detailArray['name']?></h1>
-							    <div class="title mb-1"><?= $ages[$detailArray['name']]." years of age"?></div>
+							    <div class="title mb-1"><?= memberAge($detailArray['birthday'])." years of age"?></div>
 							    <div class="title mb-3"><?=$detailArray['desiredJobtitle'] ?></div>
 							    <ul class="list-unstyled">
 									<li class="mb-2"><a class="text-link" href=<?="mailto:".$detailArray['email']?>><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i><?=$detailArray['email'] ?></a></li>

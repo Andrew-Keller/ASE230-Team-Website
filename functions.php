@@ -1,5 +1,5 @@
 
-=======
+
 
 <?php	
 function createCard(array $array, $index){ ?>
@@ -23,13 +23,10 @@ function createCard(array $array, $index){ ?>
 		    </header>
 <?php } ?>
 <?php
-
 function memberAge($birthday){
 	$birthday = date('Y-m-d', strtotime($birthday));
 	$today = date('Y-m-d');
 	$years = date_diff(date_create($birthday), date_create($today));
 	return $years->format('%y');
-}
-
-?>
+}?>
 
